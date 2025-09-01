@@ -14,3 +14,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Formataçao geral dos cards */
+.cards {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
