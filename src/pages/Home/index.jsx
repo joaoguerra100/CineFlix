@@ -6,10 +6,12 @@ import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 import Category, {categories, filterCategory}  from '../../components/Category'
 import Carousel from '../../components/Carousel'
+import ScrollToTopButton from '../../components/ScrollToTopButton'
 
 function Home() {
   return (
     <>
+        <ScrollToTopButton/>
         <Header />
         <Banner imagem="favoritos" />
         <Container>

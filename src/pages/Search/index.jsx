@@ -4,10 +4,12 @@ import Footer from '../../components/Footer'
 import Container from '../../components/Container'
 import videos from '../../../json/videos.json'
 import SearchVideoList from '../../components/SearchVideoList'
+import ScrollToTopButton from '../../components/ScrollToTopButton'
 
 function Search() {
     return (
         <>
+            <ScrollToTopButton/>
             <Header/>
             <Container>
                 <section className={styles.search}>
